@@ -10,9 +10,9 @@
 
 <a-scene embedded arjs>
 
-<a-marker-camera preset="hiro">
+<a-marker type="pattern" preset="costum" url="pattern-AR_marker.patt">
 
-<a-sphere src="https://cdn.glitch.com/015488bc-6416-49c1-abf3-5d85424501e6%2Fstonetexture.jpg?v=1568666744442" position= "0 0.5 0" material= "color: gray" height=".15" radius=".15"></a-sphere>
+<a-entity  gltf-model="url(https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/AnimatedMorphSphere/glTF/AnimatedMorphSphere.gltf)" position= "0 0.5 0" material= "color: gray" height=".15" radius=".15"></a-entity>
 
 <a-text value="Hello!" position="-0.5 0 -1" color="#FF16EB" rotation="-45 0 0"></a-text>
 
